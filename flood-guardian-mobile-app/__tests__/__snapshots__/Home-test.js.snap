@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page renders correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4281099674,
+      0,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.5,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 0.5,
+      "y": 0,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "paddingBottom": 20,
+        "paddingTop": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "center",
+          "color": "#9BBFE9",
+          "flex": 1,
+          "fontFamily": "Chicle-Regular",
+          "fontSize": 50,
+          "justifyContent": "center",
+          "textAlign": "center",
+        }
+      }
+    >
+      Flood Guardian
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginBottom": 15,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginBottom": 15,
+          "marginLeft": 70,
+          "marginRight": 70,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 40,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontFamily": "Roboto-Regular",
+              "fontSize": 25,
+              "fontWeight": "bold",
+              "paddingLeft": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Tap to set location
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "rgba(38, 69, 148, 0.08)",
+        "borderRadius": 10,
+        "marginBottom": 15,
+        "width": 350,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "paddingBottom": 4,
+          "paddingRight": 15,
+          "paddingTop": 8,
+          "textAlign": "right",
+        }
+      }
+    >
+      Last Updated: Loading...
+    </Text>
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignSelf": "center",
+          "height": 200,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#000"
+        hidesWhenStopped={true}
+        size="large"
+      />
+    </View>
+  </View>
+  <View>
+    <Modal
+      animationType="fade"
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "marginTop": 22,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "elevation": 5,
+              "height": null,
+              "width": 350,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "stretch",
+                "color": "#4d4d4d",
+                "fontSize": 20,
+                "paddingBottom": 30,
+                "paddingLeft": 30,
+                "paddingTop": 20,
+                "textAlign": "left",
+              }
+            }
+          >
+            Location
+          </Text>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "opacity": 1,
+                "paddingBottom": 15,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "width": 250,
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#2696FF",
+                    "fontSize": 40,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Material Icons",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginHorizontal": 10,
+                  "marginLeft": 10,
+                }
+              }
+            >
+              My current location
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={false}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#2696FF",
+                  "fontSize": 20,
+                  "fontWeight": "bold",
+                  "paddingBottom": 10,
+                  "paddingTop": 10,
+                }
+              }
+            >
+              Add a location
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#2696FF",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                    "paddingBottom": 10,
+                    "paddingTop": 10,
+                  },
+                  Object {
+                    "paddingBottom": 30,
+                  },
+                ]
+              }
+            >
+              Close
+            </Text>
+          </View>
+        </View>
+      </View>
+    </Modal>
+  </View>
+</BVLinearGradient>
+`;
