@@ -34,7 +34,7 @@ For the purposes of this guide, the AVD name will be assumed to be named _myAVD_
 4. Run `npm install`
 5. Run `npm run all` (this is a script defined in `flood-guardian-mobile-app/package.json`)      
     The app should now be running in _myAVD_. If _myAVD_ does not display the FloodGuardian app, reload _myAVD_ by hitting **R** + **R** on your keyboard
-6. On _myAVD_, tap _Tap to set location_
+6. On the FloodGuardian app, tap _Tap to set location_
 7. Tap _My current location_
 8. Accept location permissions
 9. Tap _Close_
