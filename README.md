@@ -21,7 +21,7 @@ For the purposes of this guide, the AVD name will be assumed to be named _myAVD_
 ## Running the app
 ### Starting the server
 1. Navigate to the `flood-guardian-server/` folder in your terminal  
-2. Build the docker image and start the container (ie the server) by running `docker-compose up --build`
+2. Build the docker image and start the container (ie the server) by running `docker-compose up --build` (note that this step requires that port 5000 be free on your machine).
 
 
 ### Running the React Native frontend
